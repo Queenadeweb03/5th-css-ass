@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif monospace;
+    color: rgb(16, 149, 116);
+}
+
+.header {
+    background-color: rgb(231, 247, 231);
+    text-align: center;
+}
+
+.cloud1 {
+    width: 80px;
+    height: 80%;
+    padding-left: 50%;
+    margin-top: 20px;
+}
+
+.name {
+    font-family: "Brush script MT", cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.cloud2 {
+    width: 80px;
+    height: 80%;
+    margin-bottom: 10%;
+    padding-right: 20%;
+}
+
+.mount {
+      width: 30%;
+      height: 40%;
+      margin-bottom: 0;
+      padding-right: 25%;
+}
+
+.container {
+    width: 50%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.mod {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.status{
+   margin-top: 30px;
+   color: rgb(65, 34, 34);
+   font-size: 20px;
+   line-height: 1.7;
+   margin-bottom: 30px;
+}
+
+.dot {
+    color: rgb(65, 34, 34);
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 50px;
+    font-size: 30px;
+} 
+
+.hr1 {
+    border-bottom: 5px solid;
+    margin-top: 50px;
+    color: rgb(41, 37, 37);
+}
+
+.computer{
+    height: 150px;
+    width: 150px;
+   float: left;
+   margin-right: 20px;
+   margin-top: 0;
+}
+
+.table{ 
+    text-align: left;
+}
+
+h6{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.par{
+    font-size: 12px;
+    color: rgb(65, 34, 34);
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.hr2 {
+    margin-top: 100px;
+    border-bottom: 5px solid;
+    color: rgb(41, 37, 37);
+    
+}
+
+.container2 {
+    text-align: left; 
+}
+
+.img1 {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+.stu {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.para2 {
+    color: rgb(65, 34, 34);;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.dot2 {
+    text-align: center;
+    color: rgb(65, 34, 34);
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.portfolio {
+    background-color: rgb(236, 232, 232);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;  
+}
+
+.hr3 {
+    margin-left: 39%;
+    width: 22%;
+    border-bottom: 3px solid;
+    margin-top: 5px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.img-col {
+    max-width: 960px;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    -webkit-transition: all .5s linear;
+    transition: all 0.5s linear;
+}
+
+.img-col img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.para4 {
+    text-align: center;
+}
+
+.my-h{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.p4 {
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+.p5 {
+    color: rgb(65, 34, 34);
+    margin-top: 15px;
+}
+
+.contact {
+    color: white;
+    background-color: rgb(0, 55, 255);
+    padding: 5px 5px 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.contact:hover {
+    background-color: greenyellow;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(84, 171, 209);
+    margin-top: 50px;
+}
+.tag {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ancor {
+    color: rgb(18, 18, 179);
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.copywrite {
+    color: white;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+      /*.header {
+        width: 100%;
+        background-color: yellow;
+      }
+      .table {
+        width: 120%;
+      }
+      .container2 {
+        width: 150%;
+      }*/
+
+
+      .header {
+        background-color: rgb(231, 247, 231);
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    
+    .cloud1 {
+        width: 80px;
+        height: 80%;
+        padding-left: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .name {
+        font-family: "Brush script MT", cursive;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    h5 {
+        font-size: 20px;
+        margin-bottom: 10px; 
+    }
+    
+    .cloud2 {
+        width: 80px;
+        height: 80%;
+        margin-bottom: 10%;
+        padding-right: 20%;
+        
+    }
+    
+    .mount {
+          width: 30%;
+          height: 40%;
+          margin-bottom: 0;
+          padding-right: 0;
+          margin-right: 150px;
+    }
+    
+    .container {
+        width: 50%;
+        padding-left: 25%;
+        text-align: center;
+    }
+    
+    .mod {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .status{
+       margin-top: 30px;
+       color: rgb(65, 34, 34);
+       font-size: 20px;
+       line-height: 1.7;
+       margin-bottom: 30px;
+    }
+    
+    .dot {
+        color: rgb(65, 34, 34);
+        margin-top: 20px;
+    }
+    
+    h4 {
+        margin-top: 50px;
+        font-size: 30px;
+    } 
+    
+    .hr1 {
+        border-bottom: 5px solid;
+        margin-top: 50px;
+        color: rgb(41, 37, 37);
+    }
+    
+    .computer{
+        height: 150px;
+        width: 150px;
+       float: left;
+       margin-right: 20px;
+       margin-top: 0;
+    }
+    
+    .table{ 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    
+    h6{
+        font-size: 15px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .par{
+        font-size: 12px;
+        color: rgb(65, 34, 34);
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    
+    .hr2 {
+        margin-top: 10px;
+        border-bottom: 5px solid;
+        color: rgb(41, 37, 37);
+        
+    }
+    
+    .container2 {
+        width: 100%;
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .img1 {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .stu {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .para2 {
+        color: black;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    
+    .dot2 {
+        text-align: center;
+        color: rgb(65, 34, 34);
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .portfolio {
+        width: 100%;
+        background-color: rgb(236, 232, 232);
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .head {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;  
+    }
+    
+    .hr3 {
+        margin-left: 39%;
+        width: 22%;
+        border-bottom: 3px solid;
+        margin-top: 5px;
+    }
+    
+    img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .row {
+        margin-top: 20px;
+    }
+    
+    .img-col {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    
+    .img-col:hover {
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none; 
+    }
+    
+    .para4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .my-h{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    
+    .p4 {
+        font-size: 15px;
+        margin-top: 10px;
+        
+    }
+    
+    .p5 {
+        color: rgb(65, 34, 34);
+        margin-top: 15px;
+    }
+    
+    .contact {
+        color: white;
+        background-color: rgb(0, 55, 255);
+        padding: 5px 5px 5px 5px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+        margin-left: 0;
+        margin-top: 30px;
+        border: none;
+        cursor: pointer;
+    }
+    .contact:hover {
+        background-color: greenyellow;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: rgb(84, 171, 209);
+        margin-top: 50px;
+    }
+    .tag {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .ancor {
+        color: blue;
+        text-align: center;
+        padding: 25px;
+        text-decoration: none;
+    }
+
+
+}
