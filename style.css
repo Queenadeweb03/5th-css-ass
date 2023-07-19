@@ -267,7 +267,7 @@ footer {
 
     
     .cloud1 {
-        width: 80px;
+        width: 70px;
         height: 80%;
         padding-left: 50%;
         margin-top: 20px;
@@ -286,7 +286,7 @@ footer {
     }
     
     .cloud2 {
-        width: 80px;
+        width: 70px;
         height: 80%;
         margin-bottom: 10%;
         padding-right: 20%;
@@ -294,11 +294,11 @@ footer {
     }
     
     .mount {
-          width: 30%;
+          width: 25%;
           height: 40%;
           margin-bottom: 0;
           padding-right: 0;
-          margin-right: 150px;
+          margin-right: 30%;
     }
     
     .container {
